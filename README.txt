@@ -7,7 +7,7 @@ Analyse de trois datasets réels (Kaggle) avec **NumPy** et **Pandas** uniquemen
 
 ---
 
-## 📁 Contenu du dossier
+## Contenu du dossier
 
 ```
 GROUPE_1_L1D_PYTHON_DATA/
@@ -22,20 +22,20 @@ GROUPE_1_L1D_PYTHON_DATA/
 └── README.md                     → Ce fichier
 ```
 
-## 👥 Membres du groupe
+## Membres du groupe
 
 | N° | Nom et Prénom | Matricule | Partie affectée |
 |----|----------------|:---------:|------------------|
-| 1 | HARIMINO Faly Henintsoa | 401 | Partie 2 — Nettoyage & Préparation<br>Partie 4 — Analyses avancées & Conclusions |
-| 2 | ANDRIAMIRADO Fanomezantsoa Fiononana | 402 | Partie 1 — Exploration & Qualité des données<br>Partie 3 — Création de variables & Analyses |
+| 1 | HARIMINO Faly Henintsoa | 401 | Partie 2 — Nettoyage & Préparation ; Partie 4 — Analyses avancées & Conclusions |
+| 2 | ANDRIAMIRADO Fanomezantsoa Fiononana | 402 | Partie 1 — Exploration & Qualité des données ; Partie 3 — Création de variables & Analyses |
 | 3 | *(à compléter)* | ... | *(à définir)* |
 | 4 | *(à compléter)* | ... | *(à définir)* |
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 `Python 3` · `NumPy` · `Pandas` — uniquement, aucun Machine Learning.
 
-## ▶️ Comment exécuter les notebooks
+## Comment exécuter les notebooks
 
 1. Ouvrir le dossier `GROUPE_1_L1D_PYTHON_DATA` dans Jupyter Notebook ou VS Code.
 2. S'assurer que le dossier `data/` reste au même niveau que les `.ipynb` (les notebooks lisent les fichiers avec un chemin relatif `data/...csv`).
@@ -43,11 +43,11 @@ GROUPE_1_L1D_PYTHON_DATA/
 
 ---
 
-## 🧩 Répartition du travail — 4 parties
+## Répartition du travail — 4 parties
 
 Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre participe aux 3 sujets (interdiction de faire *"un sujet = un étudiant"*). Le travail est organisé en **4 parties transversales** (chaque partie couvre la même étape sur les 3 sujets), classées par ordre de difficulté croissante. Les 2 parties les plus difficiles sont provisoirement affectées au Matricule 401, les 2 parties restantes au Matricule 402. La répartition définitive entre les 4 membres du groupe sera communiquée ultérieurement.
 
-### Partie 1 — Exploration & Qualité des données `Niveau : facile`
+### Partie 1 — Exploration & Qualité des données (niveau : facile)
 
 **Affectée à :** ANDRIAMIRADO Fanomezantsoa Fiononana — Matricule 402
 
@@ -56,16 +56,16 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 - Sujet 3 (Jeux vidéo) : Partie A — Exploration
 - Transverse : vérification de la cohérence des 3 notebooks (`info()`, `describe()`, colonnes, dimensions) avant remise.
 
-### Partie 2 — Nettoyage & Préparation des données `Niveau : difficile`
+### Partie 2 — Nettoyage & Préparation des données (niveau : difficile)
 
 **Affectée à :** HARIMINO Faly Henintsoa — Matricule 401
 
 - Sujet 1 (Titanic) : Partie B — Nettoyage (`Age`, `Cabin`, `Embarked`, `Fare`)
-- Sujet 2 (Supermarché) : Partie B — Préparation (`Date`, `Jour`/`Mois`/`Jour_Semaine`, calcul de CA, comparaison CA vs Total)
+- Sujet 2 (Supermarché) : Partie B — Préparation (`Date`, `Jour`, `Mois`, `Jour_Semaine`, calcul de CA, comparaison CA vs Total)
 - Sujet 3 (Jeux vidéo) : Partie B — Nettoyage (`Year`, `Publisher`) + Partie C — Vérification NumPy (`Calculated_Global_Sales`, `Difference`)
 - *Difficulté :* nécessite de justifier chaque choix de traitement des valeurs manquantes (imputation par sous-groupe, conversion de type, vérification de cohérence entre colonnes) plutôt que d'appliquer une méthode automatique.
 
-### Partie 3 — Création de variables & Analyses principales `Niveau : facile/moyen`
+### Partie 3 — Création de variables & Analyses principales (niveau : facile/moyen)
 
 **Affectée à :** ANDRIAMIRADO Fanomezantsoa Fiononana — Matricule 402
 
@@ -73,7 +73,7 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 - Sujet 2 (Supermarché) : Partie C — Analyse des ventes + Partie D — Analyse par agence
 - Sujet 3 (Jeux vidéo) : Partie D — Analyse mondiale (top jeux, plateformes, éditeurs, genres)
 
-### Partie 4 — Analyses avancées & Conclusions `Niveau : difficile`
+### Partie 4 — Analyses avancées & Conclusions (niveau : difficile)
 
 **Affectée à :** HARIMINO Faly Henintsoa — Matricule 401
 
@@ -82,7 +82,7 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 - Sujet 3 (Jeux vidéo) : Partie E — Analyse géographique + Partie F — Analyse temporelle (comparaison par période) + Partie G — Conclusion
 - *Difficulté :* croise plusieurs variables (`groupby` multi-niveaux, comparaisons géographiques et temporelles), et implique la rédaction des interprétations et conclusions de chaque sujet, ainsi que la synthèse finale dans `conclusions.pdf`.
 
-### ✅ Tâches transverses (tout le groupe, dernier jour)
+### Tâches transverses (tout le groupe, dernier jour)
 
 - [ ] Relecture croisée : chaque membre relit une partie qu'il n'a pas rédigée, afin d'être capable de l'expliquer en soutenance.
 - [ ] Harmonisation du style de code et des commentaires entre les 3 notebooks.
@@ -91,7 +91,7 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 
 ---
 
-## 🗓️ Calendrier (4 jours)
+## Calendrier (4 jours)
 
 | Jour | Travail principal |
 |------|--------------------|
@@ -102,5 +102,5 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 
 ---
 
-> **ℹ️ Note**
+> **Note**
 > Le sujet du projet mentionne à la fois *"groupe de 4 étudiants"* en en-tête et *"groupe de 3 étudiants"* dans le corps du texte. Ce README suppose un groupe de 4 membres (2 confirmés à ce jour). À vérifier auprès de l'enseignant si un doute subsiste sur la taille de groupe officielle.
