@@ -13,8 +13,6 @@ Analyse de trois datasets réels (Kaggle) avec **NumPy** et **Pandas** uniquemen
 |----|----------------|:---------:|------------------|
 | 1 | HARIMINO Faly Henintsoa | 401 | Partie 2 — Nettoyage & Préparation<br>Partie 4 — Analyses avancées & Conclusions |
 | 2 | ANDRIAMIRADO Fanomezantsoa Fiononana | 402 | Partie 1 — Exploration & Qualité des données<br>Partie 3 — Création de variables & Analyses |
-| 3 | *(à compléter)* | ... | *(à définir)* |
-| 4 | *(à compléter)* | ... | *(à définir)* |
 
 ## 🛠️ Technologies utilisées
 
@@ -28,43 +26,47 @@ Analyse de trois datasets réels (Kaggle) avec **NumPy** et **Pandas** uniquemen
 
 ---
 
-## 🧩 Répartition du travail — 4 parties
+## 🧩 Répartition du travail — par fichier
 
-Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre participe aux 3 sujets (interdiction de faire *"un sujet = un étudiant"*). Le travail est organisé en **4 parties transversales** (chaque partie couvre la même étape sur les 3 sujets), classées par ordre de difficulté croissante. Les 2 parties les plus difficiles sont provisoirement affectées au Matricule 401, les 2 parties restantes au Matricule 402. La répartition définitive entre les 4 membres du groupe sera communiquée ultérieurement.
+Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre participe aux 3 sujets (interdiction de faire *"un sujet = un étudiant"*). Le groupe étant définitivement composé de 2 membres, le travail est réparti dans son intégralité entre les deux, sur les 3 notebooks.
 
-### Partie 1 — Exploration & Qualité des données `Niveau : facile`
+### 📗 `sujet_01_titanic.ipynb`
 
-**Affectée à :** ANDRIAMIRADO Fanomezantsoa Fiononana — Matricule 402
+| Section | Contenu | Assigné à |
+|---------|---------|-----------|
+| Partie A | Chargement et exploration | ANDRIAMIRADO — 402 |
+| Partie B | Nettoyage (`Age`, `Cabin`, `Embarked`, `Fare`) | HARIMINO — 401 |
+| Partie C | Création de variables (`FamilySize`, `IsAlone`, `AgeGroup`) | ANDRIAMIRADO — 402 |
+| Partie D (points 1 à 5) | Analyse — taux de survie global, par sexe, par classe | ANDRIAMIRADO — 402 |
+| Partie D (points 6 à 10) | Analyse — âge, groupe d'âge, famille, tarif | HARIMINO — 401 |
+| Partie E | Conclusion | HARIMINO — 401 |
 
-- Sujet 1 (Titanic) : Partie A — Chargement et exploration
-- Sujet 2 (Supermarché) : Partie A — Exploration
-- Sujet 3 (Jeux vidéo) : Partie A — Exploration
-- Transverse : vérification de la cohérence des 3 notebooks (`info()`, `describe()`, colonnes, dimensions) avant remise.
+### 📙 `sujet_02_supermarket.ipynb`
 
-### Partie 2 — Nettoyage & Préparation des données `Niveau : difficile`
+| Section | Contenu | Assigné à |
+|---------|---------|-----------|
+| Partie A | Exploration | ANDRIAMIRADO — 402 |
+| Partie B | Préparation (`Date`, `Jour`/`Mois`/`Jour_Semaine`, calcul de CA, comparaison CA vs Total) | HARIMINO — 401 |
+| Partie C | Analyse des ventes | ANDRIAMIRADO — 402 |
+| Partie D | Analyse par agence | ANDRIAMIRADO — 402 |
+| Partie E | Analyse des produits | HARIMINO — 401 |
+| Partie F | Analyse des clients | HARIMINO — 401 |
+| Partie G | Conclusion | HARIMINO — 401 |
 
-**Affectée à :** HARIMINO Faly Henintsoa — Matricule 401
+### 📘 `sujet_03_videogames.ipynb`
 
-- Sujet 1 (Titanic) : Partie B — Nettoyage (`Age`, `Cabin`, `Embarked`, `Fare`)
-- Sujet 2 (Supermarché) : Partie B — Préparation (`Date`, `Jour`/`Mois`/`Jour_Semaine`, calcul de CA, comparaison CA vs Total)
-- Sujet 3 (Jeux vidéo) : Partie B — Nettoyage (`Year`, `Publisher`) + Partie C — Vérification NumPy (`Calculated_Global_Sales`, `Difference`)
-- *Difficulté :* nécessite de justifier chaque choix de traitement des valeurs manquantes (imputation par sous-groupe, conversion de type, vérification de cohérence entre colonnes) plutôt que d'appliquer une méthode automatique.
+| Section | Contenu | Assigné à |
+|---------|---------|-----------|
+| Partie A | Exploration | ANDRIAMIRADO — 402 |
+| Partie B | Nettoyage (`Year`, `Publisher`) | HARIMINO — 401 |
+| Partie C | Vérification NumPy (`Calculated_Global_Sales`, `Difference`) | HARIMINO — 401 |
+| Partie D | Analyse mondiale (top jeux, plateformes, éditeurs, genres) | ANDRIAMIRADO — 402 |
+| Partie E | Analyse géographique | HARIMINO — 401 |
+| Partie F | Analyse temporelle (comparaison par période) | HARIMINO — 401 |
+| Partie G | Conclusion | HARIMINO — 401 |
 
-### Partie 3 — Création de variables & Analyses principales `Niveau : facile/moyen`
+### 📄 `conclusions.pdf`
 
-**Affectée à :** ANDRIAMIRADO Fanomezantsoa Fiononana — Matricule 402
-
-- Sujet 1 (Titanic) : Partie C — Création de variables (`FamilySize`, `IsAlone`, `AgeGroup`) + Partie D — Analyse (points 1 à 5)
-- Sujet 2 (Supermarché) : Partie C — Analyse des ventes + Partie D — Analyse par agence
-- Sujet 3 (Jeux vidéo) : Partie D — Analyse mondiale (top jeux, plateformes, éditeurs, genres)
-
-### Partie 4 — Analyses avancées & Conclusions `Niveau : difficile`
-
-**Affectée à :** HARIMINO Faly Henintsoa — Matricule 401
-
-- Sujet 1 (Titanic) : Partie D — Analyse (points 6 à 10) + Partie E — Conclusion
-- Sujet 2 (Supermarché) : Partie E — Analyse des produits + Partie F — Analyse des clients + Partie G — Conclusion
-- Sujet 3 (Jeux vidéo) : Partie E — Analyse géographique + Partie F — Analyse temporelle (comparaison par période) + Partie G — Conclusion
-- *Difficulté :* croise plusieurs variables (`groupby` multi-niveaux, comparaisons géographiques et temporelles), et implique la rédaction des interprétations et conclusions de chaque sujet, ainsi que la synthèse finale dans `conclusions.pdf`.
+Synthèse finale rédigée par **HARIMINO Faly Henintsoa — Matricule 401**, à partir des conclusions validées par les deux membres sur les 3 sujets.
 
 ---
