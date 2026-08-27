@@ -67,11 +67,4 @@ Conformément à la consigne, les 3 sujets sont obligatoires et chaque membre pa
 - Sujet 3 (Jeux vidéo) : Partie E — Analyse géographique + Partie F — Analyse temporelle (comparaison par période) + Partie G — Conclusion
 - *Difficulté :* croise plusieurs variables (`groupby` multi-niveaux, comparaisons géographiques et temporelles), et implique la rédaction des interprétations et conclusions de chaque sujet, ainsi que la synthèse finale dans `conclusions.pdf`.
 
-### ✅ Tâches transverses (tout le groupe, dernier jour)
-
-- [ ] Relecture croisée : chaque membre relit une partie qu'il n'a pas rédigée, afin d'être capable de l'expliquer en soutenance.
-- [ ] Harmonisation du style de code et des commentaires entre les 3 notebooks.
-- [ ] Vérification finale : exécution complète (**Restart & Run All**) des 3 notebooks sans erreur avant la remise.
-- [ ] Répartition des questions probables de soutenance entre tous les membres, sur les 3 datasets.
-
 ---
